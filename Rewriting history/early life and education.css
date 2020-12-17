@@ -1,14 +1,19 @@
-.content {
-    border:blue;
-    text-decoration-style: dotted;
-    font-family:Arial, Helvetica, sans-serif;
-}
-.boxcontent {
-   border:yellow;
-   text-decoration-color: aqua;
-   font-family:sans-serif;
-}
 #first div {
-    font-style: italic;
-    margin: 0,5em;
+    font-style: oblique;
 }
+#history content {
+    font-style:italic;
+    font-size:medium;
+    }
+    body {
+        background-color:brown;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    p {
+        font-style: oblique;
+        text-decoration-style: dotted;
+    }
+    nav ul {
+        border:solid 0,5em black;
+        list-style-type:none;
+    }
