@@ -17,3 +17,16 @@
         border:solid 0,5em black;
         list-style-type:none;
     }
+.container {
+    display: flex;
+    background-color:brown;
+}
+
+.column-one,
+.column-two {
+    width: 50%;
+
+}
+.column1 .column-two {
+ justify-items:center;
+}
