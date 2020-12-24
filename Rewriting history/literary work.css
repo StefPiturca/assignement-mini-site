@@ -3,14 +3,11 @@ table {
     }
 th {
     text-align:left;
+border:1px solid black;
 }
 table,th,td {
     border:1px solid black;
-    border-collapse: collapse;
-}
-th,td {
-    padding:10px;
-}
+  }
 tr:nth-child(even) {
     background-color: #fff;
 }
@@ -19,4 +16,12 @@ tr:nth-child(odd) {
 }
 body {
     background-color: tomato;
+}
+tr,td {
+    border:1px solid black;
+    text-align:left;
+}
+body {
+    border:1px solid black;
+    text-align:center;
 }
